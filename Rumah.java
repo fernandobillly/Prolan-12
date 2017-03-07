@@ -6,11 +6,11 @@ class Rumah {
 
 	void bagianrumah ()
 	   {
-	    System.Outprinln ("bangunan");
-		System.Outprinln ("pintu");
-		System.Outprinln ("jendela");
-		System.Outprinln ("kamartidur");
-		System.Outprinln ("kamarmandi");
-		System.Outprinln ("ruangtamu");
+	    System.Out.prinln ("bangunan");
+		System.Out.prinln ("pintu");
+		System.Out.prinln ("jendela");
+		System.Out.prinln ("kamartidur");
+		System.Out.prinln ("kamarmandi");
+		System.Out.prinln ("ruangtamu");
 	   }
 }
