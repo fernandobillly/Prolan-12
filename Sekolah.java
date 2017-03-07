@@ -1,18 +1,18 @@
-//Rumah dan Attribute
+//Sekolah dan Attribute
 
 public class Sekolah {
-	Public string bangunan, pintu, kamarmandi ; 
-		   string jendela, papantulis; 
-	privat string meja, kursi, ;
+	Public string bangunan, pintu, kamarmandi, jendela;
+	 
+	privat string meja, kursi, papantulis;
 
 	void bagiansekolah ()
 	   {
-	    System.Outprinln ("bangunan");
-		System.Outprinln ("pintu");
-		System.Outprinln ("jendela");
-		System.Outprinln ("papantulis");
-		System.Outprinln ("meja");
-		System.Outprinln ("kursi");
-		System.Outprinln ("kamarmandi");
+	    System.Out.prinln ("bangunan");
+		System.Out.prinln ("pintu");
+		System.Out.prinln ("jendela");
+		System.Out.prinln ("papantulis");
+		System.Out.prinln ("meja");
+		System.Out.prinln ("kursi");
+		System.Out.prinln ("kamarmandi");
 	   }
 }
