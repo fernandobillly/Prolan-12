@@ -1,5 +1,8 @@
+//Rumah dan Attribute
+
 class Rumah {
-	Public string bangunan, pintu, jendela, kamartidur, kamarmandi, ruangtamu;
+	Public string bangunan, pintu, kamarmandi, jendela; 
+	privat string kamartidur, ruangtamu;
 
 	void bagianrumah ()
 	   {
