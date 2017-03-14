@@ -1,16 +1,19 @@
 //Rumah dan Attribute
 
-class Rumah {
-	Public string bangunan, pintu, kamarmandi, jendela; 
-	privat string kamartidur, ruangtamu;
-
-	void bagianrumah ()
-	   {
-	    System.Out.prinln ("bangunan");
-		System.Out.prinln ("pintu");
-		System.Out.prinln ("jendela");
-		System.Out.prinln ("kamartidur");
-		System.Out.prinln ("kamarmandi");
-		System.Out.prinln ("ruangtamu");
-	   }
+public class Rumah {
+	public string bangunan, pintu, kamarmandi, jendela; 
+	public string kamartidur, ruangtamu;
+	private int norumah;
+		   
+	rumah() {
+		ruangtamu = "ruang keluarga";
+		norumah = "rumah no ke berapa";	
+	}
+	   
+	public class callconstructionrumah{
+		public static void main (String[] args){
+			rumah  rmh = new rumah
+			System.out.println(rmh.)
+		}
+	}
 }
